@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bgLily" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#f7faf6"/>
+      <stop offset="100%" stop-color="#e0ecdc"/>
+    </radialGradient>
+    <linearGradient id="leafLily" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#43a047"/>
+      <stop offset="100%" stop-color="#1b5e20"/>
+    </linearGradient>
+    <linearGradient id="potLily" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a1887f"/>
+      <stop offset="100%" stop-color="#6d4c41"/>
+    </linearGradient>
+    <linearGradient id="flowerLily" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0e0e0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgLily)"/>
+  <!-- pot -->
+  <path d="M140 290 Q200 330 260 290 L268 360 Q268 380 248 380 L152 380 Q132 380 132 360 Z" fill="url(#potLily)"/>
+  <ellipse cx="200" cy="290" rx="60" ry="12" fill="#4e342e"/>
+  <!-- dark green leaves -->
+  <g fill="url(#leafLily)">
+    <path d="M200 290 Q150 200 110 130 Q140 220 200 290 Z"/>
+    <path d="M200 290 Q250 200 290 130 Q260 220 200 290 Z"/>
+    <path d="M200 290 Q170 240 140 180 Q180 250 200 290 Z"/>
+    <path d="M200 290 Q230 240 260 180 Q220 250 200 290 Z"/>
+  </g>
+  <!-- white spathe (peace lily flower) -->
+  <g>
+    <path d="M200 130 Q170 150 175 200 Q190 195 200 180 Q210 195 225 200 Q230 150 200 130 Z" fill="url(#flowerLily)" stroke="#cfcfcf" stroke-width="1"/>
+    <!-- spadix -->
+    <ellipse cx="200" cy="175" rx="3" ry="20" fill="#fdd835"/>
+  </g>
+</svg>

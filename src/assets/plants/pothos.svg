@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bgPothos" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#f7faf4"/>
+      <stop offset="100%" stop-color="#dde9d4"/>
+    </radialGradient>
+    <linearGradient id="potPothos" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d7ccc8"/>
+      <stop offset="100%" stop-color="#8d6e63"/>
+    </linearGradient>
+    <linearGradient id="leafPothosDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2e7d32"/>
+      <stop offset="100%" stop-color="#1b5e20"/>
+    </linearGradient>
+    <linearGradient id="leafPothosLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9ccc65"/>
+      <stop offset="100%" stop-color="#558b2f"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgPothos)"/>
+  <!-- pot -->
+  <path d="M150 270 Q200 300 250 270 L258 360 Q258 380 240 380 L160 380 Q142 380 142 360 Z" fill="url(#potPothos)"/>
+  <ellipse cx="200" cy="270" rx="55" ry="10" fill="#5d4037"/>
+  <!-- trailing vines -->
+  <g fill="none" stroke="#33691e" stroke-width="2">
+    <path d="M170 270 Q160 280 140 330 Q120 420 100 470"/>
+    <path d="M200 270 Q200 290 200 360 Q200 440 220 480"/>
+    <path d="M230 270 Q240 290 260 340 Q280 420 290 460"/>
+  </g>
+  <!-- heart-shaped variegated leaves -->
+  <g>
+    <g transform="translate(140 320) rotate(-20)">
+      <path d="M0 0 Q-15 -25 -8 -40 Q0 -55 8 -40 Q15 -25 0 0 Z" fill="url(#leafPothosDark)"/>
+      <path d="M-6 -8 Q-12 -22 -6 -32 Q-2 -38 -2 -30 Q-4 -22 -6 -8 Z" fill="url(#leafPothosLight)" opacity="0.7"/>
+    </g>
+    <g transform="translate(125 360) rotate(-15)">
+      <path d="M0 0 Q-15 -25 -8 -40 Q0 -55 8 -40 Q15 -25 0 0 Z" fill="url(#leafPothosDark)"/>
+      <path d="M-6 -8 Q-12 -22 -6 -32 Q-2 -38 -2 -30 Q-4 -22 -6 -8 Z" fill="url(#leafPothosLight)" opacity="0.7"/>
+    </g>
+    <g transform="translate(210 320) rotate(20)">
+      <path d="M0 0 Q-15 -25 -8 -40 Q0 -55 8 -40 Q15 -25 0 0 Z" fill="url(#leafPothosDark)"/>
+      <path d="M-6 -8 Q-12 -22 -6 -32 Q-2 -38 -2 -30 Q-4 -22 -6 -8 Z" fill="url(#leafPothosLight)" opacity="0.7"/>
+    </g>
+    <g transform="translate(225 360) rotate(15)">
+      <path d="M0 0 Q-15 -25 -8 -40 Q0 -55 8 -40 Q15 -25 0 0 Z" fill="url(#leafPothosDark)"/>
+      <path d="M-6 -8 Q-12 -22 -6 -32 Q-2 -38 -2 -30 Q-4 -22 -6 -8 Z" fill="url(#leafPothosLight)" opacity="0.7"/>
+    </g>
+    <g transform="translate(190 250) rotate(-10)">
+      <path d="M0 0 Q-13 -22 -7 -35 Q0 -50 7 -35 Q13 -22 0 0 Z" fill="url(#leafPothosDark)"/>
+      <path d="M-5 -7 Q-10 -19 -5 -28 Q-2 -33 -2 -27 Q-3 -19 -5 -7 Z" fill="url(#leafPothosLight)" opacity="0.7"/>
+    </g>
+    <g transform="translate(220 240) rotate(15)">
+      <path d="M0 0 Q-13 -22 -7 -35 Q0 -50 7 -35 Q13 -22 0 0 Z" fill="url(#leafPothosDark)"/>
+      <path d="M-5 -7 Q-10 -19 -5 -28 Q-2 -33 -2 -27 Q-3 -19 -5 -7 Z" fill="url(#leafPothosLight)" opacity="0.7"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bgMint" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#f4faf2"/>
+      <stop offset="100%" stop-color="#dcebdc"/>
+    </radialGradient>
+    <linearGradient id="potMint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c62828"/>
+      <stop offset="100%" stop-color="#8b1a1a"/>
+    </linearGradient>
+    <linearGradient id="leafMint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#66bb6a"/>
+      <stop offset="100%" stop-color="#2e7d32"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgMint)"/>
+  <!-- terracotta pot -->
+  <path d="M140 280 Q200 320 260 280 L268 360 Q268 380 248 380 L152 380 Q132 380 132 360 Z" fill="url(#potMint)"/>
+  <ellipse cx="200" cy="280" rx="60" ry="12" fill="#5d0e0e"/>
+  <!-- mint leaves: opposite pairs along stems -->
+  <g stroke="#2e7d32" stroke-width="2.5" fill="url(#leafMint)">
+    <!-- stem 1 (left) -->
+    <path d="M180 280 Q170 220 145 150" fill="none"/>
+    <ellipse cx="170" cy="240" rx="20" ry="12" transform="rotate(-30 170 240)"/>
+    <ellipse cx="155" cy="210" rx="20" ry="12" transform="rotate(-40 155 210)"/>
+    <ellipse cx="148" cy="180" rx="18" ry="11" transform="rotate(-50 148 180)"/>
+    <ellipse cx="145" cy="150" rx="16" ry="10" transform="rotate(-60 145 150)"/>
+    <!-- stem 2 (center) -->
+    <path d="M200 280 Q200 210 195 130" fill="none"/>
+    <ellipse cx="180" cy="245" rx="22" ry="13"/>
+    <ellipse cx="220" cy="245" rx="22" ry="13"/>
+    <ellipse cx="178" cy="210" rx="20" ry="12"/>
+    <ellipse cx="218" cy="210" rx="20" ry="12"/>
+    <ellipse cx="178" cy="175" rx="18" ry="11"/>
+    <ellipse cx="215" cy="175" rx="18" ry="11"/>
+    <ellipse cx="195" cy="135" rx="16" ry="10"/>
+    <!-- stem 3 (right) -->
+    <path d="M220 280 Q230 220 255 150" fill="none"/>
+    <ellipse cx="230" cy="240" rx="20" ry="12" transform="rotate(30 230 240)"/>
+    <ellipse cx="245" cy="210" rx="20" ry="12" transform="rotate(40 245 210)"/>
+    <ellipse cx="252" cy="180" rx="18" ry="11" transform="rotate(50 252 180)"/>
+    <ellipse cx="255" cy="150" rx="16" ry="10" transform="rotate(60 255 150)"/>
+  </g>
+</svg>

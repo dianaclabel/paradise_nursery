@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bgZZ" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#f3f7f1"/>
+      <stop offset="100%" stop-color="#d9e6d4"/>
+    </radialGradient>
+    <linearGradient id="potZZ" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#455a64"/>
+      <stop offset="100%" stop-color="#263238"/>
+    </linearGradient>
+    <linearGradient id="leafZZ" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2e7d32"/>
+      <stop offset="50%" stop-color="#1b5e20"/>
+      <stop offset="100%" stop-color="#0d3d10"/>
+    </linearGradient>
+    <linearGradient id="leafZZHi" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#43a047" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#43a047" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgZZ)"/>
+  <!-- pot -->
+  <path d="M140 280 Q200 320 260 280 L268 360 Q268 380 248 380 L152 380 Q132 380 132 360 Z" fill="url(#potZZ)"/>
+  <ellipse cx="200" cy="280" rx="60" ry="12" fill="#1c2626"/>
+  <!-- ZZ plant: glossy pointed oval leaves on upright stems -->
+  <g>
+    <!-- stems -->
+    <g stroke="#1b5e20" stroke-width="3" fill="none">
+      <path d="M180 280 Q175 220 168 150"/>
+      <path d="M200 280 Q200 200 198 100"/>
+      <path d="M220 280 Q225 220 232 150"/>
+      <path d="M160 280 Q150 240 135 200"/>
+      <path d="M240 280 Q250 240 265 200"/>
+    </g>
+    <!-- leaves: pairs opposite each other -->
+    <g fill="url(#leafZZ)" stroke="#0d3d10" stroke-width="1">
+      <ellipse cx="170" cy="240" rx="18" ry="10" transform="rotate(-25 170 240)"/>
+      <ellipse cx="195" cy="240" rx="18" ry="10" transform="rotate(25 195 240)"/>
+      <ellipse cx="173" cy="200" rx="20" ry="11" transform="rotate(-25 173 200)"/>
+      <ellipse cx="200" cy="200" rx="20" ry="11" transform="rotate(25 200 200)"/>
+      <ellipse cx="172" cy="165" rx="18" ry="10" transform="rotate(-25 172 165)"/>
+      <ellipse cx="200" cy="165" rx="18" ry="10" transform="rotate(25 200 165)"/>
+      <ellipse cx="170" cy="135" rx="16" ry="9" transform="rotate(-20 170 135)"/>
+      <ellipse cx="198" cy="135" rx="16" ry="9" transform="rotate(20 198 135)"/>
+      <ellipse cx="198" cy="105" rx="14" ry="8"/>
+    </g>
+    <!-- highlight -->
+    <g fill="url(#leafZZHi)">
+      <ellipse cx="173" cy="200" rx="14" ry="8" transform="rotate(-25 173 200)"/>
+      <ellipse cx="200" cy="200" rx="14" ry="8" transform="rotate(25 200 200)"/>
+      <ellipse cx="172" cy="165" rx="12" ry="7" transform="rotate(-25 172 165)"/>
+      <ellipse cx="200" cy="165" rx="12" ry="7" transform="rotate(25 200 165)"/>
+    </g>
+  </g>
+</svg>

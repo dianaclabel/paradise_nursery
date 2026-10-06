@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bgFern" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#f5faf3"/>
+      <stop offset="100%" stop-color="#dfe9d3"/>
+    </radialGradient>
+    <linearGradient id="potFern" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8d6e63"/>
+      <stop offset="100%" stop-color="#5d4037"/>
+    </linearGradient>
+    <linearGradient id="leafFern" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7cb342"/>
+      <stop offset="100%" stop-color="#33691e"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgFern)"/>
+  <!-- pot -->
+  <path d="M150 280 Q200 320 250 280 L260 360 Q260 380 240 380 L160 380 Q140 380 140 360 Z" fill="url(#potFern)"/>
+  <ellipse cx="200" cy="280" rx="55" ry="12" fill="#3e2723"/>
+  <!-- fern fronds (feathery) -->
+  <g stroke="url(#leafFern)" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M200 270 Q170 200 130 100"/>
+    <path d="M200 270 Q230 200 270 100"/>
+    <path d="M200 270 Q160 220 110 160"/>
+    <path d="M200 270 Q240 220 290 160"/>
+    <path d="M200 270 Q190 200 175 110"/>
+    <path d="M200 270 Q210 200 225 110"/>
+    <path d="M200 270 Q140 230 90 200"/>
+    <path d="M200 270 Q260 230 310 200"/>
+  </g>
+  <!-- leaflets -->
+  <g fill="url(#leafFern)" opacity="0.9">
+    <g><ellipse cx="135" cy="120" rx="14" ry="5" transform="rotate(-30 135 120)"/><ellipse cx="150" cy="135" rx="14" ry="5" transform="rotate(-20 150 135)"/><ellipse cx="125" cy="155" rx="13" ry="4" transform="rotate(-40 125 155)"/><ellipse cx="115" cy="180" rx="12" ry="4" transform="rotate(-50 115 180)"/></g>
+    <g><ellipse cx="265" cy="120" rx="14" ry="5" transform="rotate(30 265 120)"/><ellipse cx="250" cy="135" rx="14" ry="5" transform="rotate(20 250 135)"/><ellipse cx="275" cy="155" rx="13" ry="4" transform="rotate(40 275 155)"/><ellipse cx="285" cy="180" rx="12" ry="4" transform="rotate(50 285 180)"/></g>
+    <g><ellipse cx="180" cy="135" rx="13" ry="4" transform="rotate(-15 180 135)"/><ellipse cx="186" cy="160" rx="12" ry="4" transform="rotate(-10 186 160)"/><ellipse cx="180" cy="190" rx="12" ry="4" transform="rotate(-5 180 190)"/></g>
+    <g><ellipse cx="220" cy="135" rx="13" ry="4" transform="rotate(15 220 135)"/><ellipse cx="214" cy="160" rx="12" ry="4" transform="rotate(10 214 160)"/><ellipse cx="220" cy="190" rx="12" ry="4" transform="rotate(5 220 190)"/></g>
+    <g><ellipse cx="105" cy="210" rx="13" ry="4" transform="rotate(-60 105 210)"/><ellipse cx="100" cy="235" rx="12" ry="4" transform="rotate(-70 100 235)"/></g>
+    <g><ellipse cx="295" cy="210" rx="13" ry="4" transform="rotate(60 295 210)"/><ellipse cx="300" cy="235" rx="12" ry="4" transform="rotate(70 300 235)"/></g>
+  </g>
+</svg>

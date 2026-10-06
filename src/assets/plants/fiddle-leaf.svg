@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bgFLF" cx="80%" cy="20%" r="90%">
+      <stop offset="0%" stop-color="#fbfbf6"/>
+      <stop offset="100%" stop-color="#e6ebd6"/>
+    </radialGradient>
+    <linearGradient id="potFLF" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a1887f"/>
+      <stop offset="100%" stop-color="#5d4037"/>
+    </linearGradient>
+    <linearGradient id="leafFLF" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#43a047"/>
+      <stop offset="100%" stop-color="#1b5e20"/>
+    </linearGradient>
+    <linearGradient id="leafFLFHi" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#66bb6a" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#66bb6a" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgFLF)"/>
+  <!-- floor -->
+  <ellipse cx="200" cy="375" rx="180" ry="20" fill="#000" opacity="0.08"/>
+  <!-- pot -->
+  <path d="M150 290 Q200 310 250 290 L258 370 Q258 385 244 385 L156 385 Q142 385 142 370 Z" fill="url(#potFLF)"/>
+  <ellipse cx="200" cy="290" rx="55" ry="10" fill="#3e2723"/>
+  <!-- trunk -->
+  <path d="M195 290 Q200 250 200 200 Q200 180 195 150" stroke="#5d4037" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- fiddle leaf fig leaves: violin/fiddle shaped with prominent veins -->
+  <g>
+    <!-- back leaves (darker) -->
+    <g fill="url(#leafFLF)" stroke="#1b5e20" stroke-width="0.8">
+      <!-- large back leaf right -->
+      <path d="M205 240 Q260 220 290 180 Q310 150 295 110 Q280 90 240 100 Q220 130 215 180 Q210 220 205 240 Z"/>
+      <!-- large back leaf left -->
+      <path d="M195 240 Q140 220 110 180 Q90 150 105 110 Q120 90 160 100 Q180 130 195 180 Q190 220 195 240 Z"/>
+    </g>
+    <!-- front leaves -->
+    <g fill="url(#leafFLF)" stroke="#1b5e20" stroke-width="0.8">
+      <!-- front leaf center-right -->
+      <path d="M205 215 Q245 200 275 175 Q290 150 270 115 Q250 105 225 130 Q210 165 205 215 Z"/>
+      <!-- front leaf center-left -->
+      <path d="M195 215 Q155 200 125 175 Q110 150 130 115 Q150 105 175 130 Q190 165 195 215 Z"/>
+      <!-- top leaf -->
+      <path d="M200 150 Q220 130 240 100 Q235 75 215 70 Q200 75 195 95 Q190 130 200 150 Z"/>
+    </g>
+    <!-- leaf veins -->
+    <g stroke="#1b5e20" stroke-width="1" fill="none" opacity="0.7">
+      <path d="M205 230 Q250 200 285 170"/>
+      <path d="M195 230 Q150 200 115 170"/>
+      <path d="M205 210 Q240 195 270 175"/>
+      <path d="M195 210 Q160 195 130 175"/>
+    </g>
+    <!-- highlights -->
+    <g fill="url(#leafFLFHi)">
+      <path d="M205 240 Q260 220 290 180 Q310 150 295 110 Q280 90 240 100 Q220 130 215 180 Q210 220 205 240 Z" opacity="0.5"/>
+      <path d="M205 215 Q245 200 275 175 Q290 150 270 115 Q250 105 225 130 Q210 165 205 215 Z" opacity="0.5"/>
+    </g>
+  </g>
+</svg>
